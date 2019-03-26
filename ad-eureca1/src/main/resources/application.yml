@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: ad-erueka1
+server:
+  port: 8001
+
+eureka:
+  instance:
+    hostname: localhost
+    prefer-ip-address: false
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/
+
